@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contacts Synchronization should render contact providers synchronization 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf fDibLw"
+  >
+    <div
+      class="sc-breuTD apBAU"
+    >
+      <img
+        alt="Provider logo"
+        data-testid="logo"
+        src="test-file-stub"
+      />
+      <div
+        class="sc-bczRLJ hKfxeo"
+        data-testid="title"
+      >
+        Gmail
+      </div>
+      <div
+        class="sc-gsnTZi gBjWcM"
+        data-testid="sub-title"
+      >
+        These Gmail contacts will
+ sync to MailChimp
+      </div>
+      <div
+        class="sc-papXJ flpaCQ"
+      >
+        <div
+          class="sc-kDDrLX dJjASk"
+        >
+          <div
+            class="sc-crXcEl cuWCOu"
+          >
+            <img
+              alt="check"
+              src="test-file-stub"
+            />
+            <div
+              class="sc-gsnTZi sc-iqcoie gBjWcM egOsdE"
+            >
+              All contacts
+            </div>
+          </div>
+          <img
+            alt="arrow"
+            class="sc-jqUVSM iAfbKH"
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          class="sc-evZas fOvbAl"
+        >
+          <label
+            class="container"
+          >
+            Family
+            <input
+              type="checkbox"
+            />
+            <span
+              class="checkmark"
+            />
+          </label>
+          <label
+            class="container"
+          >
+            Work Friends
+            <input
+              checked=""
+              type="checkbox"
+            />
+            <span
+              class="checkmark"
+            />
+          </label>
+          <label
+            class="container"
+          >
+            Another label
+            <input
+              type="checkbox"
+            />
+            <span
+              class="checkmark"
+            />
+          </label>
+          <label
+            class="container"
+          >
+            Another label
+            <input
+              type="checkbox"
+            />
+            <span
+              class="checkmark"
+            />
+          </label>
+          <label
+            class="container"
+          >
+            Another label
+            <input
+              type="checkbox"
+            />
+            <span
+              class="checkmark"
+            />
+          </label>
+          <label
+            class="container"
+          >
+            Another label
+            <input
+              type="checkbox"
+            />
+            <span
+              class="checkmark"
+            />
+          </label>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-dkzDqf sc-ftvSup fDibLw bOdson"
+    >
+      <div
+        class="sc-hKMtZM mZRne"
+      >
+        <img
+          alt="sync"
+          class="sc-eCYdqJ ldPOBz"
+          src="test-file-stub"
+        />
+        <div
+          class="sc-gsnTZi sc-jSMfEi sc-gKXOVf gBjWcM iGuYCg lhDFCn"
+        >
+          All done!
+        </div>
+        <div
+          class="sc-gsnTZi sc-jSMfEi sc-iBkjds gBjWcM iGuYCg dorSkQ"
+        >
+          Sync Contacts
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-breuTD apBAU"
+    >
+      <img
+        alt="Provider logo"
+        data-testid="logo"
+        src="test-file-stub"
+      />
+      <div
+        class="sc-bczRLJ hKfxeo"
+        data-testid="title"
+      >
+        Mailchimp
+      </div>
+      <div
+        class="sc-gsnTZi gBjWcM"
+        data-testid="sub-title"
+      >
+        These Mailchimp contacts will
+ sync to Gmail
+      </div>
+      <div
+        class="sc-papXJ flpaCQ"
+      >
+        <div
+          class="sc-kDDrLX dJjASk"
+        >
+          <div
+            class="sc-crXcEl cuWCOu"
+          >
+            <img
+              alt="check"
+              src="test-file-stub"
+            />
+            <div
+              class="sc-gsnTZi sc-iqcoie gBjWcM egOsdE"
+            >
+              All contacts
+            </div>
+          </div>
+          <img
+            alt="arrow"
+            class="sc-jqUVSM iAfbKH"
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          class="sc-evZas fOvbAl"
+        >
+          <label
+            class="container"
+          >
+            Family
+            <input
+              type="checkbox"
+            />
+            <span
+              class="checkmark"
+            />
+          </label>
+          <label
+            class="container"
+          >
+            Work Friends
+            <input
+              checked=""
+              type="checkbox"
+            />
+            <span
+              class="checkmark"
+            />
+          </label>
+          <label
+            class="container"
+          >
+            Another label
+            <input
+              type="checkbox"
+            />
+            <span
+              class="checkmark"
+            />
+          </label>
+          <label
+            class="container"
+          >
+            Another label
+            <input
+              type="checkbox"
+            />
+            <span
+              class="checkmark"
+            />
+          </label>
+          <label
+            class="container"
+          >
+            Another label
+            <input
+              type="checkbox"
+            />
+            <span
+              class="checkmark"
+            />
+          </label>
+          <label
+            class="container"
+          >
+            Another label
+            <input
+              type="checkbox"
+            />
+            <span
+              class="checkmark"
+            />
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
