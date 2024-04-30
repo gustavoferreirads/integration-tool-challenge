@@ -13,15 +13,18 @@ This is a [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang
 - [Prettier](https://prettier.io)
 - [Polyfills](https://github.com/vitejs/vite/tree/main/packages/plugin-legacy#readme)
 
+## Preview
+
+![preview.gif](public/preview.gif)
+
 # About
 
- Integration tool is a project that aims to integrate/synchronize data in an easy and automatic way so you can have the same data spread and updated on different platforms avoiding manual efforts and e saving time!
+Integration tool is a project that aims to integrate/synchronize data in an easy and automatic way so you can have the same data spread and updated on different platforms avoiding manual efforts and e saving time!
 
 This is the first version of the project in which we are just providing integration between Gmail and the Mailchimp platform where the user can have the same list of contacts on both just with one simple click.
 
 Check it out in this preview:
 
-[video.mp4](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/video.mp4)
 
 
 # Background
@@ -42,7 +45,7 @@ In this application we are using **TypeScript** as the main programming language
 
 React is a library for building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time. React abstracts away the DOM from you uses virtual DOM which is a JavaScript object, offering a simpler programming model and better performance since JavaScript virtual DOM is faster than the regular DOM. React can also render on the server using Node. React implements one-way reactive data flow, which reduces the boilerplate and is easier to reason about than traditional data binding.
 
-![Untitled](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Untitled.png)
+![img.png](public/img.png)
 
 **TypeScript**
 
@@ -62,7 +65,7 @@ If we rely on the [official documentation](https://reactjs.org/docs/faq-structu
 
 This project presents a modular architecture specified by functionalities for better coupling and distribution of functionalities. Each module represents functionality that in principle is capable of working independently and being initialized from any other module.
 
-![Untitled](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Untitled%201.png)
+![img.png](public/structure.png)
 
 Example of modular organization and architecture.
 
@@ -106,7 +109,7 @@ Prettier is a code formatter for JavaScript and other popular languages. Prettie
 
 **Unit testing** ensures that all code meets quality standards before it’s deployed. This ensures a reliable engineering environment where quality is paramount. Over the course of the product development life cycle, unit testing saves time and money and helps developers write better code, more efficiently. So we can create and execute unit tests we are using **Jest**.
 
-![Untitled](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Untitled%202.png)
+![img.png](public/testing.png)
 
  
 
@@ -120,7 +123,7 @@ The tool enables developers to create components independently and showcase comp
 
 Within **Storybook**, you create what are called “stories”, which are essentially just mini examples or demos. For example, if you were developing a button component, you could create a story for that.
 
-![Untitled](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Untitled%203.png)
+![img_1.png](public/storybook.png)
 
 Using Storybook, it’s really easy to show other developers what you’ve created for them: buttons, cards, modals, menus, tooltips, etc.
 
@@ -238,23 +241,23 @@ You can see below how the project is organized and where you can put new files o
 
 The unit tests must be created in a file with a `.spec` extension ( `index.spec.ts` ) and they must be along with the file to be tested like: 
 
-![Untitled](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Untitled%204.png)
+![unit.png](public/unit.png)
 
 Each file must have all tests inside of a jest `describe('Name', ()=> { ... })` function and the tests must use `it("should renders a list of contacts", () => {...}` , when running the tests it will show a organized description of each file and it tests. 
 
 **See an example below:**
 
-![Untitled](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Untitled%205.png)
+![describe.png](public/describe.png)
 
 **After running you can see everything organized, making it easy to read like this:** 
 
-![Untitled](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Untitled%206.png)
+![passed.png](public/passed.png)
 
 ## Styling
 
 If you want to modify or add a new style we already have the correct place prepared for it, `.src/styles/theme.ts` you can add common styles to be used for the all project in this way if something changes in the design system we don't need to search and find all places that affected just change the property inside of the theme.ts and it will reflect in the whole application.
 
-![Untitled](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Untitled%207.png)
+![theme.png](public/theme.png)
 
 ![Untitled](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Untitled%208.png)
 
