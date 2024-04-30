@@ -1,6 +1,6 @@
 
 # Integration tool
-This is a [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang.org/) project built with [Vite](https://vitejs.dev).
+This is a [React](ht![img.png](img.png)tps://reactjs.org) + [TypeScript](https://www.typescriptlang.org/) project built with [Vite](https://vitejs.dev).
 
 ## What's inside?
 - [ReactJS](https://reactjs.org)
@@ -24,8 +24,6 @@ Integration tool is a project that aims to integrate/synchronize data in an easy
 This is the first version of the project in which we are just providing integration between Gmail and the Mailchimp platform where the user can have the same list of contacts on both just with one simple click.
 
 Check it out in this preview:
-
-
 
 # Background
 
@@ -259,7 +257,7 @@ If you want to modify or add a new style we already have the correct place prepa
 
 ![theme.png](public/theme.png)
 
-![Untitled](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Untitled%208.png)
+![styled.png](public/styled.png)
 
 ## **Documenting**
 
@@ -267,13 +265,13 @@ The project was thought to be highly reusable and easy to scale that is why we d
 
 Below you can see the Integration-tool StoryBook page 
 
-![Untitled](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Untitled%209.png)
+![/storybook2.png](public/storybook2.png)
 
 When creating a new reusable component it is mandatory to document it with StoryBook, for that we have a folder called stories where we will put all story components, they must be created following this pattern `Component.stories.tsx` and respecting the ./src organization path.
 
 See below:
 
-![Untitled](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Untitled%2010.png)
+![stories.png](public/stories.png)
 
 To see the documentation portal just run `yarn run storybook`
 
@@ -281,15 +279,16 @@ To see the documentation portal just run `yarn run storybook`
 
 Basically, our **CircleCI** pipeline has two jobs one to build and run the tests and another one to deploy the application, whenever has a new change in the master branch.
 
-![Captura de tela 2022-08-15 173146.png](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Captura_de_tela_2022-08-15_173146.png)
+![pipeline.png](public/pipeline.png)
 
 You can see below all steps inside of the jobs. 
 
-![Captura de tela 2022-08-15 173202.png](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Captura_de_tela_2022-08-15_173202.png)
+![pipeline2.png](public/pipeline2.png)
 
 Here the **CircleCI** will automatically deploy our application to the Heroku.
 
-![Captura de tela 2022-08-15 173221.png](Trio%20Integration%20tool%20faf254e1b9054140bfc31c57942ab928/Captura_de_tela_2022-08-15_173221.png)
+![pipeline3.png](public/pipeline3.png)
+
 
 With **CircleCI** it's really easy to change and improve the pipeline, if you need to add a step or remove something, you can see the configuration file here ./.circleci/config.yml. Please, if you are not familiar with CircleCI, we recommend not changing the file. For more info read the documentation [here.](https://circleci.com/docs/getting-started)
 
